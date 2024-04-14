@@ -1,30 +1,52 @@
-# React + TypeScript + Vite
+[ToDo](https://github.com/kayzarosa/deliveryFrontAdministrador/assets/20192309/2ed7377e-d1d8-44cb-a4ff-53c99f7f6885)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Desafio 1 ToDo
 
-Currently, two official plugins are available:
+# :rocket: Lista de tarefas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> TUDO ESTÁ BEM!!!!!.  <img src="https://user-images.githubusercontent.com/20192309/80777643-4202cd80-8b3c-11ea-8f32-5348bda4486b.jpg" width="10%" />
 
-## Expanding the ESLint configuration
+## Sobre o projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Nesse desafio, você vai desenvolver uma aplicação de controle de tarefas no estilo **to-do list**, que contém as seguintes funcionalidades:
 
-- Configure the top-level `parserOptions` property like this:
+- Adicionar uma nova tarefa
+- Marcar e desmarcar uma tarefa como concluída
+- Remover uma tarefa da listagem
+- Mostrar o progresso de conclusão das tarefas
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Apesar de serem poucas funcionalidades, você vai precisar relembrar conceitos como:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Estados
+- Imutabilidade do estado
+- Listas e chaves no ReactJS
+- Propriedades
+- Componentização <br />
+
+
+## Versão e instalação
+
+<a href="https://nodejs.org/pt/"> NodeJS 20.11.0 LTS</a> <br/>
+
+
+## Instalação dos pacotes
+
+Instale todas as dependências do projeto com o comando abaixo:
+
+````sh
+npm i
+````
+
+## Iniciar uma API
+
+````sh
+npm run dev
+````
+
+## Usando o site
+
+Insira a descrição da tarefa, conclua e delete, mantendo sua lista do dia.
+
+
+<br />
+Feito com ♥ by Kayza :wave:
