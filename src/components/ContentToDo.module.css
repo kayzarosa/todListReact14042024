@@ -1,0 +1,74 @@
+div {
+  z-index: 1;
+}
+
+.addTask {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  margin-top: calc(0px - 1.6875rem);
+  object-fit: cover;
+}
+
+.sectionList {
+  display: flex;
+  padding: 4rem 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sectionList .countTask {
+  display: flex;
+  @media (max-width: 700px) {
+    flex-wrap: wrap;
+    flex: 1;
+    width: 100%;
+  }
+}
+
+.taskCreate {
+  color: var(--blue);
+  font-size: 1rem;
+
+  @media (max-width: 700px) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.taskCreate span {
+  margin-left: 0.5rem;
+  background-color: var(--gray-400);
+  font-size: 0.8rem;
+  color: var(--white);
+  padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+  border-radius: 20px;
+}
+
+.taskConcluded {
+  color: var(--purple);
+  font-size: 1rem;
+  text-align: end;
+
+  @media (max-width: 700px) {
+    text-align: start;
+  }
+}
+
+.taskConcluded span {
+  margin-left: 0.5rem;
+  background-color: var(--gray-400);
+  font-size: 0.8rem;
+  color: var(--white);
+  padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+  border-radius: 20px;
+}
+
+.listTask {
+  margin-top: 1.5rem;
+  height: 22.75rem;
+  width: 100%;
+  overflow-y: auto;
+}

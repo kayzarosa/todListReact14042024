@@ -1,0 +1,21 @@
+.input {
+  background: var(--gray-500);
+
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1 0 0;
+
+  border-radius: 8px;
+  border: 1px solid var(--gray-700);
+  background: var(--gray-500);
+
+  color: var(--gray-100);
+  line-height: 1.4rem;
+}
+
+.input::placeholder {
+  color: var(--gray-300);
+  line-height: 1.4rem;
+}
